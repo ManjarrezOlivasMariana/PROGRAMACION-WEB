@@ -1,0 +1,79 @@
+img[alt]{
+    border: 5px solid blue;
+}
+
+img[src="img/BRONCOS.png"]{
+width: 400px;
+}
+
+img[src^="img/"]{
+   width: 200px;
+}
+
+img[src$="png"]{
+   width: 700px;
+}
+img[src*="mg/"]{
+   width: 1000px;
+}
+
+article[class~="resaltado"]{
+   border:1px dashed blue
+   
+}
+article[class~="ingles"]{
+   border:1px dashed green
+   
+}
+article[class~="archivo"]{
+   border:1px dashed red
+   
+}
+
+article[class|=ingles]{
+   text-align: center;
+   
+}
+
+div>p{ 
+    color: blue;
+}
+
+div p { 
+    color: red;
+}
+
+h2+p{
+    color: gray;
+}
+h2~p{
+    color: orange;
+}
+
+#resumen, #pruebas, #resultados, #conclusiones{
+  color: red;
+}
+
+section:not(#referencias){
+    color: purple;
+}
+
+li:nth-child(odd){
+    color: green;
+}
+li:nth-child(even){
+    color: blue;
+}
+
+li:nth-child(5){
+    color: red;
+}
+
+li:nth-last-child(3){
+    color: orange;
+}
+
+p::first-line{
+    font-weight: bold;
+    color: blue;
+}

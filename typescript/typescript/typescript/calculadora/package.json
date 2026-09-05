@@ -1,0 +1,26 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "calculadora de ejemplo",
+  "main": "index.js",
+  "scripts": {
+    "multiplica": "ts-node multiplicacion.ts",
+    "calcula": "ts-node calculadora.ts",
+    "define": "ts-node definiciones.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "programación",
+    "web",
+    "calculadora"
+  ],
+  "author": "Materia de programación Web",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.9.3"
+  }
+}

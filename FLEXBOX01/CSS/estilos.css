@@ -1,0 +1,36 @@
+.contenedor{
+    background: khaki;
+    border: 1px solid black;
+    padding: 5px;
+    height: 400px;
+    display: flex;
+   /* flex-direction: row;
+    flex-wrap: nowrap;*/
+    flex-flow: row nowrap; /* flex-direction + flex-wrap */
+    justify-content: center;/* Alineacion vertical */
+    align-items: end;/* Alineacion horizontal */
+
+}
+
+.box{
+    border: 3px solid black;
+    font-size: 30px;
+    margin: 15px;
+    width: 100px;
+
+
+}
+
+.b1{
+order: 1;
+flex-wrap: 0;
+}
+
+.b2{
+order: 2;
+flex-wrap: 1;
+}
+.b3{
+order: 3;
+flex-wrap: 2;
+}

@@ -1,0 +1,314 @@
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1078px;
+    min-width: 1078px;
+    background-color: white;
+}
+
+header {
+    position: relative;
+    height: 140px;
+}
+
+.logo-container {
+    position: absolute;
+    left: 0px;
+    top: 15px;
+}
+
+#logo {
+    height: 60px;
+    width: auto;
+}
+
+.language-flags {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.language-flags img {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+.shop-link {
+    position: absolute;
+    right: 150px;
+    top: 40px;
+    text-align: right;
+}
+
+.go-shop-img {
+    display: block;
+    margin-bottom: 5px;
+    height: 20px;
+    width: auto;
+    margin-left: auto;
+}
+
+.buy-button {
+    height: 30px;
+    width: auto;
+}
+
+header nav {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    padding: 8px 25px 12px 25px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    border-bottom: 2px solid #ccc;
+    font-size: 1em;
+    margin-right: 8px;
+}
+
+header nav ul li:hover {
+    border-bottom: 2px solid #8BC500;
+}
+
+/* Línea punteada después del header */
+#hero-section::before {
+    content: "";
+    position: absolute;
+    top: 140px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-image: repeating-linear-gradient(to right, #999 0, #999 4px, transparent 4px, transparent 10px);
+    z-index: 10;
+}
+
+#hero-section {
+    display: flex;
+    margin-top: 40px;
+    min-height: 500px;
+    position: relative;
+}
+
+#hero-text {
+    width: 56%;
+    padding-right: 20px;
+    padding-left: 0px;
+}
+
+.main-title {
+    margin-bottom: 25px;
+}
+
+.title-black {
+    font-size: 4.2em;
+    font-weight: 900;
+    color: #333;
+    display: block;
+    line-height: 0.8;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+.title-green {
+    font-size: 4.2em;
+    font-weight: 900;
+    color: #8BC500;
+    display: block;
+    line-height: 0.8;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+/* Línea punteada horizontal después del título */
+.main-title::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-image: repeating-linear-gradient(to right, #999 0, #999 4px, transparent 4px, transparent 10px);
+    margin-top: 25px;
+}
+
+.description {
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    font-size: 0.95em;
+    text-align: left;
+    max-width: 520px;
+}
+
+.video-gallery {
+    display: flex;
+    gap: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Botón de play para el segundo video */
+.gallery-item:nth-child(2)::after {
+    content: "▶";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,0.9);
+    color: #333;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding-left: 2px;
+    border: 2px solid #999;
+}
+
+#hero-bike {
+    width: 44%;
+    position: relative;
+    text-align: center;
+    padding-right: 0px;
+}
+
+.main-bike {
+    width: 95%;
+    max-width: none;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.warranty-badge {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+.warranty-img {
+    width: 90px;
+    height: auto;
+}
+
+footer {
+    margin-top: 80px;
+    padding-top: 20px;
+    padding-left: 0px;
+    background-color: white;
+    position: relative;
+}
+
+/* Línea punteada antes del footer */
+footer::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-image: repeating-linear-gradient(to right, #999 0, #999 4px, transparent 4px, transparent 10px);
+}
+
+.social-links {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.social-links img {
+    width: 22px;
+    height: 22px;
+}
+
+.copyright {
+    color: #999;
+    font-size: 0.8em;
+    margin-bottom: 30px;
+}
+
+.footer-columns {
+    display: flex;
+    gap: 35px;
+    margin-top: 20px;
+}
+
+.footer-column {
+    flex: 1;
+}
+
+.footer-column h4 {
+    color: #999;
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    color: #999;
+    font-size: 0.8em;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.footer-column ul li:hover {
+    color: #8BC500;
+}
+
+.footer-column p {
+    color: #999;
+    font-size: 0.8em;
+    line-height: 1.4;
+}
+
+/* Clases de utilidad */
+.colorverde {
+    color: #8BC500;
+}
+
+.letragrande {
+    font-size: 3.5em;
+}
+
+.letramediana {
+    font-size: 2em;
+}
+
+.nito {
+    font-weight: bold;
+}

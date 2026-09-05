@@ -1,0 +1,142 @@
+html{
+    --color-verde:#849C3C;
+    --color-negro:#353535;
+    --color-rojo: #d33040;
+    --color-gris: lightgray;
+    --fondo-negro: #2c2c2c;
+    --color-linea: #727272;
+    --color-blanco: white;
+    --color-azul: blue;
+
+
+
+}
+body{
+    font-size: 10px;
+    font-family: sans-serif;
+    margin: 0px auto;
+    max-width: 1024px;
+    size: 16px;
+
+
+}
+hr{
+    border-style: dashed;
+    color: var(--color-linea);
+}
+
+footer article{
+    display: inline-block;
+    vertical-align: top;
+    border: 5px red;
+    padding: 10px;
+    width: 31.1%;
+}
+
+footer img{
+   
+    width: 300px;
+
+
+}
+header input{
+    text-align: right;
+}
+header nav ul{
+    margin-left: -37px;
+
+}
+
+header nav ul li{
+   
+    display: inline-block;
+    margin-left: -4px;
+    margin-right: -4px;
+    padding: 8px 14 px;
+    text-align: center;
+    width: 17.3%;
+}
+
+header nav ul li:nth-child(2){
+    background-color: var(--color-verde);
+}
+header nav ul li:nth-child(3){
+    background-color: var(--color-negro);
+}
+
+header nav ul li:nth-child(4){
+    background-color: var(--color-rojo);
+}
+header nav ul li:nth-child(2){
+    background-color: var(--color-verde);
+}
+header nav ul li:nth-child(5){
+    background-color: var(--color-gris);
+}
+
+section article{
+    display: inline-block;
+    height: 420px;
+    margin-left: -4px;
+    margin-right: -4px;
+    padding: 18px 8px;
+    vertical-align: top;
+    width: 18.6%;
+    
+}
+section article:nth-child(2){
+    background: var(--color-verde);
+}
+section article:nth-child(3){
+    background: var(--color-negro);
+}
+section article:nth-child(4){
+    background: var(--color-rojo);
+}
+section article:nth-child(5){
+    background: var(--color-gris);
+}
+
+section img{
+    width: 150px;
+}
+
+
+section article ul{
+    list-style: none;
+}
+
+section article ul li{
+    margin-bottom: 10px;
+}
+section, footer{
+background-color: var(--fondo-negro);
+}
+
+.letra-azul{
+    color: var(--color-azul);
+
+}
+.letra-blanca{
+    color: var(--color-blanco);
+}
+
+.letra-gris{
+    color: var(--color-gris);
+}
+
+.tam-menu-lateral{
+    font-size: 1.1em;
+
+}
+.tam-tarjetas{
+    font-size: 1.7em;
+}
+
+.Read-more{
+    margin-left:  220px;
+}
+
+.nito{
+    font-weight: bold;
+}
